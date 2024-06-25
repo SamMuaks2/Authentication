@@ -1,0 +1,37 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.homepage-container h1 {
+  margin-bottom: 1rem;
+}
+
+.homepage-container p {
+  font-size: 1.2rem;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.r-button {
+  color: #f5f5f5;
+  width: fit-content;
+  background-color: #ff5f15;
+  border: 2px solid blue;
+}
+
+.l-button {
+  color: #f5f5f5;
+  width: fit-content;
+  background-color: #ff5f15;
+  border: 2px solid blue;
+  margin-left: 5%;
+}
